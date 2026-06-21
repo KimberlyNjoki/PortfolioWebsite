@@ -1,0 +1,203 @@
+\documentclass[10pt,a4paper,withhyper]{altacv}
+
+\geometry{
+left=1.2cm,
+right=1.2cm,
+top=1.2cm,
+bottom=1.2cm,
+columnsep=1cm
+}
+
+\usepackage{paracol}
+
+\iftutex
+\setmainfont{Roboto Slab}
+\setsansfont{Lato}
+\renewcommand{\familydefault}{\sfdefault}
+\else
+\usepackage[rm]{roboto}
+\usepackage[defaultsans]{lato}
+\renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Portfolio Colors
+
+\definecolor{SlateGrey}{HTML}{2D2D2D}
+\definecolor{LightGrey}{HTML}{666666}
+
+\definecolor{DarkPink}{HTML}{D81B7D}
+\definecolor{BrightPink}{HTML}{FF4FA3}
+
+\colorlet{name}{black}
+\colorlet{tagline}{BrightPink}
+\colorlet{heading}{DarkPink}
+\colorlet{headingrule}{BrightPink}
+\colorlet{subheading}{DarkPink}
+\colorlet{accent}{BrightPink}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\fontsize{34}{36}\selectfont\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\Large\bfseries}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+
+\begin{document}
+
+\name{Kimberly Njoki}
+\tagline{Full Stack Web Developer}
+
+\photoR{3.5cm}{kimberly}
+
+\personalinfo{
+\email{kimberlygachuhi@gmail.com}
+\location{Berlin, Germany}
+\linkedin{kimberly-gachuhi}
+\github{kimberlynjoki}
+}
+
+\makecvheader
+
+\columnratio{0.35}
+
+\begin{paracol}{2}
+
+\cvsection{Profile}
+
+Creative and detail-oriented Full Stack Web Developer currently pursuing a Bachelor of Science in Computer Science at GISMA University of Applied Sciences.
+
+Passionate about building responsive web applications, elegant user experiences and modern digital solutions.
+
+Strong interest in technology, digital art, design and continuous learning.
+
+\cvsection{Education}
+
+\cvevent
+{Bachelor of Science in Computer Science}
+{GISMA University of Applied Sciences}
+{2026 -- 2029}
+{Berlin, Germany}
+
+Currently developing skills in software engineering, web development, databases and modern programming technologies.
+
+\divider
+
+\cvsection{Projects}
+
+\cvevent
+{\href{https://kimberly-makeup.vercel.app/}{Inizio Cosmetics}}
+{E-Commerce Platform}
+{2025}
+{}
+
+\cvtag{\href{https://kimberly-makeup.vercel.app/}{View Live Website}}
+
+
+
+Developed a responsive beauty e-commerce platform featuring:
+
+\begin{itemize}
+\item Product catalogue
+\item Shopping cart
+\item Product filtering
+\item User authentication
+\item Responsive design
+\end{itemize}
+
+\divider
+
+\cvevent
+{\href{https://your-portfolio-link.com}{Developer Portfolio}}
+{Personal Website}
+{2026}
+{}
+\cvtag{\href{https://kimberlynjoki.github.io/PortfolioWebsite/}{View Live Website}}
+
+Designed and developed a modern portfolio website focused on personal branding and frontend design.
+
+\divider
+
+\switchcolumn
+
+\cvsection{Skills}
+
+\cvtag{HTML5}
+\cvtag{CSS3}
+\cvtag{JavaScript}
+
+\smallskip
+
+\cvtag{React}
+\cvtag{Node.js}
+
+
+\smallskip
+
+
+\cvtag{Git}
+\cvtag{GitHub}
+
+\smallskip
+
+\cvtag{Responsive Design}
+
+
+
+\divider
+
+\cvsection{Languages}
+
+\cvskill{English}{5}
+
+\divider
+
+\cvskill{Swahili}{5}
+
+\divider
+
+\cvskill{German A1}{5}
+
+\divider
+
+\cvskill{German A2}{3.5}
+
+\divider
+
+\cvsection{Strengths}
+
+\cvtag{Creative}
+
+\cvtag{Ambitious}
+
+\cvtag{Organized}
+
+\smallskip
+
+\cvtag{Detail-Oriented}
+
+\cvtag{Problem Solver}
+
+\cvtag{Team Player}
+
+\divider
+
+\cvsection{Interests}
+
+\cvtag{Digital Art}
+
+\cvtag{Swimming}
+
+\cvtag{Music}
+
+\smallskip
+
+\cvtag{AI}
+
+\cvtag{Technology}
+
+\cvtag{UI/UX Design}
+
+\end{paracol}
+
+\end{document}
