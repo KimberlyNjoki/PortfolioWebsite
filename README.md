@@ -1,4 +1,4 @@
-# Kimberly Njoki Portfolio Website
+## Kimberly Njoki Portfolio Website
 
 ## Overview
 
