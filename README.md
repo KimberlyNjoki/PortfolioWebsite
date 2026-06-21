@@ -8,7 +8,7 @@ This repository contains my personal portfolio website developed as part of my C
 
 Portfolio URL:
 
-[Insert Portfolio Website URL]
+[https://kimberlynjoki.github.io/PortfolioWebsite/]
 
 ## Features
 
